@@ -7,7 +7,7 @@ st.set_page_config(page_title="Digit Recognition", page_icon="✍️")
 
 @st.cache_resource
 def load_model():
-    return keras.models.load_model("digit_cnn.keras")
+    return keras.models.load_model("digit_cnn .keras")
 
 model = load_model()
 
